@@ -1,0 +1,16 @@
+&GATEWAY
+  Coord = ch2o-geo.xyz
+  Basis = 6-31G
+  Group = NoSym
+
+>>> Do While
+&SEWARD
+
+&SCF
+  KSDFT = b3lyp
+
+&SLAPAF
+>>> EndDo
+
+&GRID_IT
+  

@@ -1,0 +1,15 @@
+&GATEWAY
+  Coord = ch2o.xyz
+  Basis = 6-31G
+  Group = NoSym
+
+&SEWARD
+
+&SCF
+  KSDFT = b3lyp
+
+&MBPT2
+  Frozen = 1
+
+&GRID_IT
+  
