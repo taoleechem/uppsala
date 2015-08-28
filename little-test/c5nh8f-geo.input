@@ -1,0 +1,17 @@
+&GATEWAY
+  coord = c5nh8f.xyz
+  basis = 6-31G*
+  group = NoSym
+
+>>> Do While
+  &SEWARD
+  &SCF
+    Charge = +1
+  &MBPT2
+*    Frozen = 1
+  &SLAPAF
+>>> EndDo
+
+&MCKINLEY
+
+&GRID_IT

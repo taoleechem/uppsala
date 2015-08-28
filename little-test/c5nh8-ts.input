@@ -1,0 +1,24 @@
+&GATEWAY
+  coord = c5nh8-opt.xyz
+  basis = 6-31G*
+  group = NoSym
+  Constraints
+  a = Dihedral C2 C5 C7 H11
+  Value
+  a = 90.0 degree
+  End of Constraints
+
+>>> Export MOLCAS_MAXITER=200
+>>> Do While
+  &SEWARD
+  &SCF
+    Charge = +1
+  &MBPT2
+*    Frozen = 1
+  &SLAPAF
+    FindTS
+>>> EndDo
+
+&MCKINLEY
+
+&GRID_IT
