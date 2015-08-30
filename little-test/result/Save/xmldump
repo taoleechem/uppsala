@@ -1,0 +1,114 @@
+<MOLCASxml xmlns="http://www.molcas.org/schema">
+<Internal_info>
+  <program>MOLCAS</program>
+  <version>8.1.14-05-23</version>
+  <date>Sat Aug 29 11:21:30 2015</date>
+  <nProc>1</nProc>
+</Internal_info>
+<module value="gateway">
+<Natoms appear="Number of atoms" level="1" type="int"> 14</Natoms>
+<Coordinates>
+<Atom>
+<Element appear="Element name" level="1"> "C"</Element>
+<XYZ appear="Cartesian coordinates" units="Angstrom" level="1" type="real" nx="3"><v> -4.15307252</v><v> 3.81856342</v><v> -0.01223529</v></XYZ>
+<Basis appear="Basis set label" level="1"> "6-31G*"</Basis>
+</Atom>
+<Atom>
+<Element appear="Element name" level="1"> "C"</Element>
+<XYZ appear="Cartesian coordinates" units="Angstrom" level="1" type="real" nx="3"><v> -3.04175254</v><v> 4.58572072</v><v> 0.06433058</v></XYZ>
+<Basis appear="Basis set label" level="1"> "6-31G*"</Basis>
+</Atom>
+<Atom>
+<Element appear="Element name" level="1"> "H"</Element>
+<XYZ appear="Cartesian coordinates" units="Angstrom" level="1" type="real" nx="3"><v> -4.09217956</v><v> 2.73919320</v><v> -0.12511936</v></XYZ>
+<Basis appear="Basis set label" level="1"> "6-31G*"</Basis>
+</Atom>
+<Atom>
+<Element appear="Element name" level="1"> "H"</Element>
+<XYZ appear="Cartesian coordinates" units="Angstrom" level="1" type="real" nx="3"><v> -5.14620886</v><v> 4.25236160</v><v> 0.03620451</v></XYZ>
+<Basis appear="Basis set label" level="1"> "6-31G*"</Basis>
+</Atom>
+<Atom>
+<Element appear="Element name" level="1"> "C"</Element>
+<XYZ appear="Cartesian coordinates" units="Angstrom" level="1" type="real" nx="3"><v> -1.73738236</v><v> 3.99469413</v><v> -0.00151041</v></XYZ>
+<Basis appear="Basis set label" level="1"> "6-31G*"</Basis>
+</Atom>
+<Atom>
+<Element appear="Element name" level="1"> "H"</Element>
+<XYZ appear="Cartesian coordinates" units="Angstrom" level="1" type="real" nx="3"><v> -3.12153304</v><v> 5.66432546</v><v> 0.17719477</v></XYZ>
+<Basis appear="Basis set label" level="1"> "6-31G*"</Basis>
+</Atom>
+<Atom>
+<Element appear="Element name" level="1"> "C"</Element>
+<XYZ appear="Cartesian coordinates" units="Angstrom" level="1" type="real" nx="3"><v> -0.56379975</v><v> 4.69689109</v><v> 0.06807691</v></XYZ>
+<Basis appear="Basis set label" level="1"> "6-31G*"</Basis>
+</Atom>
+<Atom>
+<Element appear="Element name" level="1"> "C"</Element>
+<XYZ appear="Cartesian coordinates" units="Angstrom" level="1" type="real" nx="3"><v> 0.66058304</v><v> 3.99963474</v><v> -0.00859991</v></XYZ>
+<Basis appear="Basis set label" level="1"> "6-31G*"</Basis>
+</Atom>
+<Atom>
+<Element appear="Element name" level="1"> "N"</Element>
+<XYZ appear="Cartesian coordinates" units="Angstrom" level="1" type="real" nx="3"><v> 1.84043928</v><v> 4.56698802</v><v> 0.04688701</v></XYZ>
+<Basis appear="Basis set label" level="1"> "6-31G*"</Basis>
+</Atom>
+<Atom>
+<Element appear="Element name" level="1"> "H"</Element>
+<XYZ appear="Cartesian coordinates" units="Angstrom" level="1" type="real" nx="3"><v> -1.69242407</v><v> 2.90943513</v><v> -0.11495515</v></XYZ>
+<Basis appear="Basis set label" level="1"> "6-31G*"</Basis>
+</Atom>
+<Atom>
+<Element appear="Element name" level="1"> "H"</Element>
+<XYZ appear="Cartesian coordinates" units="Angstrom" level="1" type="real" nx="3"><v> -0.56383961</v><v> 5.77895911</v><v> 0.18104952</v></XYZ>
+<Basis appear="Basis set label" level="1"> "6-31G*"</Basis>
+</Atom>
+<Atom>
+<Element appear="Element name" level="1"> "H"</Element>
+<XYZ appear="Cartesian coordinates" units="Angstrom" level="1" type="real" nx="3"><v> 0.65963751</v><v> 2.91664332</v><v> -0.12165827</v></XYZ>
+<Basis appear="Basis set label" level="1"> "6-31G*"</Basis>
+</Atom>
+<Atom>
+<Element appear="Element name" level="1"> "H"</Element>
+<XYZ appear="Cartesian coordinates" units="Angstrom" level="1" type="real" nx="3"><v> 1.94663620</v><v> 5.57405830</v><v> 0.15168905</v></XYZ>
+<Basis appear="Basis set label" level="1"> "6-31G*"</Basis>
+</Atom>
+<Atom>
+<Element appear="Element name" level="1"> "H"</Element>
+<XYZ appear="Cartesian coordinates" units="Angstrom" level="1" type="real" nx="3"><v> 2.69618628</v><v> 4.02141176</v><v> -0.01278396</v></XYZ>
+<Basis appear="Basis set label" level="1"> "6-31G*"</Basis>
+</Atom>
+</Coordinates>
+</module>
+<module value="seward">
+</module>
+<module value="scf">
+<method> "rhf"</method>
+<energy appear="Total SCF energy" units="a.u." level="1" type="real"> -248.19642687</energy>
+<kinetic appear="Kinetic energy" units="a.u." level="2" type="real"> 247.56562261</kinetic>
+<virial appear="Virial coefficient" units="a.u." level="2" type="real"> 1.00254803</virial>
+<spin appear="UHF spin" level="1" type="real"> 0.00000000</spin>
+<potnuc appear="Nuclear repulsion energy" units="a.u." level="1" type="real"> 204.03874426</potnuc>
+<energy1el appear="One electron energy" units="a.u." level="1" type="real"> -729.57447993</energy1el>
+<energy2el appear="Two electron energy" units="a.u." level="1" type="real"> 277.33930880</energy2el>
+<nsym appear="Number of irreps" level="1" type="int"> 1</nsym>
+<nbas appear="Number of basis functions" level="1" type="int"> 106</nbas>
+<norb appear="Number of orbitals" level="1" type="int"> 106</norb>
+<nocc appear="Number of occupied orbitals" level="1" type="int"> 22</nocc>
+<FormalCharge appear="Total charge" units="a.u" type="real"> 1.00000000</FormalCharge>
+<dipole appear="Dipole moment" units="Debye" level="1" type="real" nx="3"><v> -0.59136670</v><v> 7.78408897</v><v> 0.01316864</v></dipole>
+</module>
+<module value="rasscf">
+<FormalCharge appear="Total charge" units="a.u" type="real"> 1.00000000</FormalCharge>
+<dipole appear="Dipole moment" units="Debye" level="1" type="real" nx="3"><v> 0.40735328</v><v> 8.00603247</v><v> 0.03317063</v></dipole>
+<FormalCharge appear="Total charge" units="a.u" type="real"> 1.00000000</FormalCharge>
+<dipole appear="Dipole moment" units="Debye" level="1" type="real" nx="3"><v> -2.58455448</v><v> 8.12843433</v><v> 0.05544009</v></dipole>
+<FormalCharge appear="Total charge" units="a.u" type="real"> 1.00000000</FormalCharge>
+<dipole appear="Dipole moment" units="Debye" level="1" type="real" nx="3"><v> 0.24512283</v><v> 8.44994550</v><v> 0.08002872</v></dipole>
+<FormalCharge appear="Total charge" units="a.u" type="real"> 1.00000000</FormalCharge>
+<dipole appear="Dipole moment" units="Debye" level="1" type="real" nx="3"><v> 1.86271927</v><v> 8.63440728</v><v> 0.09415453</v></dipole>
+<FormalCharge appear="Total charge" units="a.u" type="real"> 1.00000000</FormalCharge>
+<dipole appear="Dipole moment" units="Debye" level="1" type="real" nx="3"><v> -1.61834825</v><v> 7.98284585</v><v> 0.03717632</v></dipole>
+</module>
+<module value="grid_it">
+</module>
